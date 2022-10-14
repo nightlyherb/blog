@@ -36,5 +36,10 @@ Setting up webpack for a simple static web page was a pain.
 
         -   Using `[MiniCssExtractPlugin.loader, "css-loader"]` for css files
         -   Including CSS **NOT IN HTML** but **IN JS bundle** (e.g. `import "style.css"`)
+            -   `mini-css-extract-plugin` extracts the bundled CSS into a separate file,
+                and it somehow gets included in the HTML file.
+                The behavior is hard to reason about
+                and I decided not to spend my time investigating this phenomenon
+                and move on with life.
 
 -   Consider using vite
