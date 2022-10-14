@@ -15,3 +15,6 @@ This is because:
     as it seems to give you more power on how to present your content,
     but I wasn't certain that I could get much use out of it
     for my future blog posts.
+
+-   In case I need javascript, I'm planning to use `<script>` tags.
+    In case I need to use components, I'm planning to use WebComponents.
